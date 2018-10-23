@@ -11,3 +11,4 @@ singleton bean </br>
  Only one instance is ever created </br>
 prototype bean </br>
  A brand new bean instance is created </br>
+#### 多线程方式  通过ApplicationContext 调用getBean 获取prototype bean </br>
