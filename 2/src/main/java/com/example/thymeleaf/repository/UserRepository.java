@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface UserRepository {
 //    新增或修改用户
-    User saveOrUpateUser(User user);
+    User saveOrUpdateUser(User user);
 //删除用户
     int deleteUser(Long id);
 //获取用户id的用户
