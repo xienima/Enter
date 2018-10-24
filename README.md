@@ -12,3 +12,5 @@ singleton bean </br>
 prototype bean </br>
  A brand new bean instance is created </br>
 #### 多线程方式  通过ApplicationContext 调用getBean 获取prototype bean </br>
+
+https://gitee.com/JCTechnology_963178841/spring-boot-enterprise-book
