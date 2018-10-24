@@ -1,6 +1,7 @@
 package com.example.thymeleaf.repository;
 
 import com.example.thymeleaf.domain.User;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicLong;
 
+@Service
 public class UserRepositoryImpl implements UserRepository {
     private static AtomicLong counter = new AtomicLong();
     private final ConcurrentMap<Long,User> userMap=new ConcurrentHashMap<Long,User>();
