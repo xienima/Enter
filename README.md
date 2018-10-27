@@ -17,3 +17,4 @@ https://gitee.com/JCTechnology_963178841/spring-boot-enterprise-book
 
 mysql与navivat上面的连接问题
 https://www.jianshu.com/p/ec35d2e772b8
+https://gitee.com/didispace/SpringBoot-Learning
